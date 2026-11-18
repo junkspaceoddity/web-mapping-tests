@@ -8,7 +8,7 @@ const world = Globe()
 
 // 2. Configure the globe's built-in sphere material
 const sphereMaterial = world.globeMaterial();
-sphereMaterial.color.set('#11131a');
+sphereMaterial.color.set('#212121');
 sphereMaterial.transparent = true;
 sphereMaterial.opacity = 0.0;
 sphereMaterial.depthWrite = false;
