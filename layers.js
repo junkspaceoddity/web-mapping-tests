@@ -14,13 +14,5 @@ const LAYERS = {
     stroke: 0.5,
     altitude: 0.004,
     visible: true
-  },
-  flights: {
-    file: 'data/flights_small.geojson',
-    name: 'Flights',
-    color: 'rgba(255, 0, 0, 0.85)',
-    stroke: 0.1,
-    altitude: 0.004,
-    visible: true
   }
 };
