@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Globe</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/globe.gl@2.32.1/dist/globe.gl.min.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <label>
+      <span>Opacity</span>
+      <input id="opacitySlider" type="range" min="0" max="1" step="0.05" value="0.0" />
+    </label>
+
+    <div id="layerToggles"></div>
+  </div>
+
+  <div id="globe"></div>
+
+  <script src="layers.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
