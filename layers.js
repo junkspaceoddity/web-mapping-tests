@@ -16,7 +16,7 @@ const LAYERS = {
     visible: true
   },
   flights: {
-    file: 'data/flights.geojson',
+    file: 'data/flights_small.geojson',
     name: 'Flights',
     color: 'rgba(255, 0, 0, 0.85)',
     stroke: 0.1,
